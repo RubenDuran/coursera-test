@@ -1,19 +1,19 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: #0288D1;
+  background-color: #FFFFFF;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #0288D1;
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../images/ssdlogo.jpg') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -24,7 +24,7 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #FFFFFF;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: #000;
+  color: #B3E5FC;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
@@ -50,11 +50,11 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #FFFFFF;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #607D8B;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -67,14 +67,14 @@ body {
   text-align: right;
   padding-bottom: 0;
 }
-#phone div { /* We Deliver */
-  color: #557c3e;
+#phone div { /*  We Come To You */
+  color: #B3E5FC;
   text-align: right;
   padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #B3E5FC;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -87,8 +87,9 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #607D8B;
   border-top: 0;
+  color: #FFFFFF;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
@@ -98,9 +99,13 @@ body {
 }
 #hours > span, #address > span {
   font-size: 1.3em;
+
+}
+#hours {
+  text-align: center;
 }
 #address p {
-  color: #557c3e;
+  color: #B3E5FC;
   font-size: .8em;
   line-height: 1.8;
 }
@@ -116,8 +121,8 @@ body {
 
 /* HOME PAGE */
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  box-shadow: 0 0 50px #0288D1;
+  border: 2px solid #0288D1;
 }
 
 #menu-tile, #specials-tile, #map-tile {
@@ -125,18 +130,18 @@ body {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #0288D1;
   overflow: hidden;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+  background: url('../images/temp1.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+  background: url('../images/temp2.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -156,7 +161,7 @@ body {
 /* MENU CATEGORIES PAGE */
 .category-tile { 
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #0288D1;
   overflow: hidden;
   width: 200px;
   height: 200px;
@@ -201,7 +206,7 @@ body {
 }
 .menu-item-photo {
   position: relative;
-  border: 2px solid #3F0C1F; 
+  border: none;
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
@@ -233,7 +238,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    background: url('../images/stayshininglr.jpg') no-repeat;
     height: 675px;
   }
 }
@@ -242,7 +247,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    background: url('../images/ssdlogot.jpg') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -251,7 +256,7 @@ h3.menu-item-title {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
+    background: url('../images/stayshiningmd.jpg') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -261,7 +266,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
+    background: url('../images/stayshiningsm.jpg') no-repeat;
     height: 432px;
   }
   /* End Home Page */
@@ -300,8 +305,8 @@ h3.menu-item-title {
     margin: 0 20px;
     padding: 10px;
     border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
+    background-color: #0288D1;
+    color: #B3E5FC;
   }
   #xs-deliver {
     margin-top: 5px;
