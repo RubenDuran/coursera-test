@@ -137,11 +137,11 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/temp1.jpg') no-repeat;
+  background: url('../images/porsche.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/temp2.jpg') no-repeat;
+  background: url('../images/wash_on_site_sm.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -163,8 +163,8 @@ body {
   position: relative;
   border: 2px solid #0288D1;
   overflow: hidden;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   margin: 0 auto 15px;
 }
 .category-tile span {
@@ -238,7 +238,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/ntemp.jpg') no-repeat;
+    background: url('../images/ford_mustang_xl.jpg') no-repeat;
     height: 675px;
   }
 }
@@ -256,7 +256,7 @@ h3.menu-item-title {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/stayshiningmd.jpg') no-repeat;
+    background: url('../images/ford_mustang_lg.jpg') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -266,7 +266,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/stayshiningsm.jpg') no-repeat;
+    background: url('../images/ford_mustang.jpg') no-repeat;
     height: 432px;
   }
   /* End Home Page */
