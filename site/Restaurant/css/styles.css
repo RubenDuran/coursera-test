@@ -165,7 +165,7 @@ body {
   position: relative;
   border: 2px solid #0288D1;
   overflow: hidden;
-  width: 400px;
+  width: 500px;
   height: 400px;
   margin: 0 auto 15px;
 }
@@ -283,6 +283,7 @@ h5.menu-item-title {
     height: 432px;
   }
   /* End Home Page */
+
 }
 
 /********** Extra small devices only **********/
@@ -361,6 +362,19 @@ h5.menu-item-title {
   .menu-item-description {
     text-align: center;;
   }
+
+    /* Gallery Page */
+  .category-tile { 
+
+  width: 400px;
+
+}
+.category-tile img{ 
+
+  width: 400px;
+   
+}
+/* End Gallery Page */
 }
 
 
@@ -387,6 +401,18 @@ h5.menu-item-title {
     float: left;
     width: 100%;
   }
+
+    /* Gallery Page */
+  .category-tile { 
+
+  width: 400px;
+}
+.category-tile img{ 
+
+  width: 400px;
+   
+}
+/* End Gallery Page */
 }
 
 
