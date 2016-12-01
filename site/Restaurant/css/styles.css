@@ -156,6 +156,8 @@ body {
   color: #fff;
   opacity: .8;
 }
+
+
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
@@ -207,6 +209,7 @@ body {
 .menu-item-photo {
   position: relative;
   border: none;
+  border-radius: 25px;
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
@@ -231,6 +234,16 @@ h3.menu-item-title {
 .menu-item-details {
   font-size: .9em;
   font-style: italic;
+}
+h4.menu-item-title {
+  margin: 0 0 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+h5.menu-item-title {
+  margin: 0 0 10px;
+  color: #607D8B;
+  text-align: center;
 }
 /* END SINGLE CATEGORY PAGE */
 
