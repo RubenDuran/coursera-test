@@ -1,14 +1,15 @@
-body{
-    background:url(https://images.unsplash.com/photo-1455525928928-837c99714248?dpr=1&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=509&amp;q=80&amp;cs=tinysrgb&amp;crop=);
+body {
+    background: url(https://images.unsplash.com/photo-1455525928928-837c99714248?dpr=1&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=509&amp;q=80&amp;cs=tinysrgb&amp;crop=);
     background-size: cover;
     background-position: center;
     font-family: 'Lato', sans-serif;
     color: white;
-    }
+}
 
 html {
     height: 100%;
 }
+
 #content {
     text-align: center;
     padding-top: 25%;
@@ -16,11 +17,13 @@ html {
                  0px 8px 13px rgba(0, 0, 0, 0.1),
                  0px 18px 23px rgba(0, 0, 0, 0.1);
 }
+
 h1 {
     font-weight: 700;
     font-size: 5em;
 }
-hr{
+
+hr {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
